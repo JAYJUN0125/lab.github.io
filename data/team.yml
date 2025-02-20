@@ -1,0 +1,61 @@
+professor:
+  name: "林濬璈"
+  title: "助理教授"
+  department: "創新前瞻科技研究學院 "
+  email: "jalin@ntut.edu.tw"
+  phone: "02-27712171#5715"
+  lab: "先鋒1310室"
+  expertise: "軟體安全與驗證、密碼學、量子計算"
+  office_hours: "星期二 15:10 - 17:10, 星期五 13:00 - 15:00"
+  image: "/images/Professor.png"
+
+members:
+  - name: "王小紅"
+    image: "/images/Professor.png"
+    year: "2025"
+    role: "碩士生"
+
+  - name: "王小橙"
+    image: "/images/Professor.png"
+    year: "2025"
+    role: "博士生"
+
+  - name: "王小黃"
+    image: "/images/Professor.png"
+    year: "2025"
+    role: "碩士生"
+
+  - name: "王小綠"
+    image: "/images/Professor.png"
+    year: "2025"
+    role: "碩士生"
+
+  - name: "王小藍"
+    image: "/images/Professor.png"
+    year: "2025"
+    role: "碩士生"
+
+  - name: "王大紅"
+    image: "/images/Professor.png"
+    year: "2023"
+    role: "碩士生"
+
+  - name: "王大橙"
+    image: "/images/Professor.png"
+    year: "2023"
+    role: "博士生"
+
+  - name: "王大黃"
+    image: "/images/Professor.png"
+    year: "2022"
+    role: "碩士生"
+
+  - name: "王大綠"
+    image: "/images/Professor.png"
+    year: "2022"
+    role: "碩士生"
+
+  - name: "王大藍"
+    image: "/images/Professor.png"
+    year: "2020"
+    role: "碩士生"

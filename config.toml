@@ -1,0 +1,76 @@
+DefaultContentLanguage = "en"
+author = "He Yeshuang"
+baseURL = "https://jayjun0125.github.io/lab.github.io/"
+copyright = "Copyright © 2025"
+disqusShortname = "lab"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-FAKE" ## or "G-xxxxxxxx" in Google Analytics v4, in hugo v0.82+
+hasCJKLanguage = true
+languageCode = "cn"
+theme = "hugo-theme-tokiwa"
+title = "創新前瞻科技XX實驗室"
+
+[markup]
+[markup.highlight]
+style = "monokailight"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+bannerFont = "fonts/exampleFont" 
+description = """
+114年度招生中!!!""" 
+env = "production" # for Google Analytics and DISQUS.
+favicon = "img/favicon-32x32.png" 
+fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
+math = true # for introducing $KaTeX$
+useChineseFonts = true 
+postDateFormat = "2006-1-2"
+
+[menu]
+# Shown in the side menu.
+[[menu.main]]
+name = "首頁"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "blogs"
+name = "Blogs"
+url = "/blogs/"
+weight = 3
+
+[[menu.main]]
+identifier = "news"
+name = "最新消息"
+url = "/news/"
+weight = 4
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 5
+
+[[menu.main]]
+identifier = "contact"
+name = "聯絡我們"
+url = "/contact/"
+weight = 6
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+[params.social]
+youtube = "https://youtube.com/"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
